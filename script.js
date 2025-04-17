@@ -34,6 +34,7 @@ function resetValue(){
 
 
 upload.onchange = function(){
+    resetValue();
     download.style.display = 'block';
     reset.style.display = 'block';
     imgContain.style.display = 'block';
